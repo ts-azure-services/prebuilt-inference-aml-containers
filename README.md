@@ -33,3 +33,5 @@ file, before being included in the Docker build. To initiate the build:
   - Run `fastrcnn_test` to test the endpoint.
 
 ## yolo-pytorch
+Similar to the above, though with the **yolo** object model. There is an issue with the handler script which
+needs fixing at some point. However, all the deployment related aspects work.

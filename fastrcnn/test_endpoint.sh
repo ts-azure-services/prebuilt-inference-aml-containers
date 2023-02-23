@@ -7,8 +7,8 @@ FILE='./fastrcnn_variables.env'
 if [ -f "$FILE" ]; then
   # Source variables
   source $FILE 
-  echo "Scoring URL is...$SCORING_URL"
-  echo "Endpoint key is...$TOKEN"
+  # echo "Scoring URL is...$SCORING_URL"
+  # echo "Endpoint key is...$TOKEN"
 
   # Make a test request
   echo "Testing the fastrcnn image..."
